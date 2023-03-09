@@ -8,33 +8,26 @@ body {
 
 
 header {
-    height: 6rem;
+    height: 3rem;
     display: flex;
-    align-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 65%,
+        #053365 65%,
+        #053365 100%
+    );
 }
 
 header a {
     text-decoration: none;
     margin-left: 4.5rem;
-    margin-top: 1.5rem;
     font-size: 1rem;
     color: #0b263d;
     transition: all 500ms;
 }
 
-.header-left-section {
-    width: 65%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#header-right-section {
-    width: 35%;
-    height: 100%;
-    background-color: #053365;
-    margin-right: 0;
-    margin-left: auto;
-}
 
 header a:hover {
   font-size: 1.5rem;
@@ -54,8 +47,9 @@ section {
 #profile-img {
     width: 15rem;
     height: 15rem;
-    margin-left: -5rem;
-    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: auto;
+    margin-top: 4rem;
     border-radius: 360px;
     border: 2px solid transparent;
     box-shadow: 0 0 0 3px #f9a49c,
@@ -64,13 +58,12 @@ section {
 
 .profile-info {
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-family: 'Playfair Display', serif;
     border-left: 6px solid #f9a49c;
-    height: fit-content;
+    height: 10rem;
     padding-left: 2rem;
     color: #0b263d;
-    width: 43%;
 }
 
 .profile-info h1 {
@@ -78,16 +71,19 @@ section {
 }
 
 #profile-p {
-    margin-bottom: 0;
-    text-decoration: underline;
-    color: #0b263d;
     width: 9.5rem;
-    margin-top: 10rem;
-    margin-left: -34.4rem;
 }
 
-#profile-p:hover {
+#profile-p p {
+    color: #0b263d;
+    text-decoration: underline;
+    text-decoration-color: #0b263d;
+}
+
+#profile-p p:hover {
     color: #f9a49c;
+    text-decoration: underline;
+    text-decoration-color: #f9a49c;
 }
 
 .profile-socials {
@@ -96,7 +92,7 @@ section {
     justify-content: center;
     width: fit-content;
     height: 1.5rem;
-    margin-top: -17rem;
+    margin-top: -14rem;
     margin-left: 4.3rem;
 }
 
@@ -111,7 +107,7 @@ section {
 }
 
 #right-section {
-    height: 100%;
+    height: 110.5%;
     width: 35%;
     margin-right: 0rem;
     margin-left: auto;

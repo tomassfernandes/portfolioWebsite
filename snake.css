@@ -1,0 +1,15 @@
+.snake-game-position {
+    text-align: center;
+    z-index: 2;
+    margin-top: 3rem;
+}
+
+.snake-game-position canvas {
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 3px #f5c687,
+               inset 0 0 0 4px #053365;
+}
+
+.snake-game-position:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,150 @@
+/*HEADER*/
+
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+
+header {
+    height: 6rem;
+    display: flex;
+    align-content: center;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: auto;
+    font-size: 1rem;
+    color: #0b263d;
+    transition: all 500ms;
+}
+
+#header-right-section {
+    width: 35%;
+    height: 100%;
+    background-color: #053365;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+header a:hover {
+  font-size: 1.5rem;
+  font-size-adjust: 20px;
+  color: #f9a49c;
+}
+
+
+/*BODY*/
+
+
+section {
+    height: 29.5rem;
+    display: flex;
+}
+
+#profile-img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    border-radius: 360px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px #95625e,
+               inset 0 0 0 4px white;
+}
+
+.profile-info {
+    margin-left: 2rem;
+    margin-top: 11rem;
+    font-family: 'Playfair Display', serif;
+    border-left: 6px solid #f9a49c;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 2rem;
+    color: #0b263d;
+}
+
+.profile-info h1 {
+    margin-top: 0;
+}
+
+#profile-p {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.profile-socials {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    height: 1.5rem;
+    margin-top: -8rem;
+    margin-left: 4.3rem;
+}
+
+.socials-size {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 2rem;
+}
+
+#right-section {
+    height: 100%;
+    width: 35%;
+    margin-right: 0rem;
+    margin-left: auto;
+    background-color: #053365;
+}
+
+.right-section-text {
+    height: fit-content;
+    margin-top: -2rem;
+    margin-bottom: auto;
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    color: white;
+}
+
+.right-section-h2 {
+    width: fit-content;
+    height: 6rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+
+/*TYPEWRITER EFFECT*/
+
+.anim-typewriter{
+    animation: typewriter 2.8s steps(30) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 23rem;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255, 255, 255, 0.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .line-1{
+    top: 30%;  
+    margin: 0 auto;
+    border-right: 2px solid rgba(254, 254, 254, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    height: 4rem;  
+    margin-top: 1.7rem;
+}
+
+

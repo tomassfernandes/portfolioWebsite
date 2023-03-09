@@ -15,12 +15,17 @@ header {
 
 header a {
     text-decoration: none;
-    margin-left: 5rem;
+    margin-left: 4.5rem;
     margin-top: 1.5rem;
-    margin-bottom: auto;
     font-size: 1rem;
     color: #0b263d;
     transition: all 500ms;
+}
+
+.header-left-section {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #header-right-section {
@@ -49,23 +54,23 @@ section {
 #profile-img {
     width: 15rem;
     height: 15rem;
-    margin-left: 3.5rem;
+    margin-left: -5rem;
     margin-top: 1rem;
     border-radius: 360px;
     border: 2px solid transparent;
-    box-shadow: 0 0 0 2px #95625e,
+    box-shadow: 0 0 0 3px #f9a49c,
                inset 0 0 0 4px white;
 }
 
 .profile-info {
     margin-left: 2rem;
-    margin-top: 11rem;
+    margin-top: 2rem;
     font-family: 'Playfair Display', serif;
     border-left: 6px solid #f9a49c;
     height: fit-content;
-    width: fit-content;
     padding-left: 2rem;
     color: #0b263d;
+    width: 43%;
 }
 
 .profile-info h1 {
@@ -75,6 +80,14 @@ section {
 #profile-p {
     margin-bottom: 0;
     text-decoration: underline;
+    color: #0b263d;
+    width: 9.5rem;
+    margin-top: 10rem;
+    margin-left: -34.4rem;
+}
+
+#profile-p:hover {
+    color: #f9a49c;
 }
 
 .profile-socials {
@@ -83,14 +96,18 @@ section {
     justify-content: center;
     width: fit-content;
     height: 1.5rem;
-    margin-top: -8rem;
+    margin-top: -17rem;
     margin-left: 4.3rem;
 }
 
-.socials-size {
+.socials {
     width: 1rem;
     height: 1rem;
     margin-right: 2rem;
+}
+
+.socials:hover {
+    filter: brightness(300%);
 }
 
 #right-section {
@@ -146,5 +163,6 @@ section {
     height: 4rem;  
     margin-top: 1.7rem;
 }
+
 
 

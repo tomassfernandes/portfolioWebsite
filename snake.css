@@ -13,3 +13,8 @@
 .snake-game-position:hover {
     cursor: pointer;
 }
+
+#snake-text-color {
+    color: #f9a49c;
+    font-size: 1.2rem;
+}

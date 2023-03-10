@@ -1,4 +1,9 @@
+
+/*HOME PAGE*/
+
+
 /*HEADER*/
+
 
 
 body {
@@ -22,7 +27,7 @@ header a {
 }
 
 
-header a:hover {
+.header-home a:hover {
   font-size: 1.5rem;
   font-size-adjust: 20px;
   color: #f9a49c;
@@ -163,3 +168,17 @@ section {
 
 
 
+
+
+
+
+/*ABOUT ME PAGE*/
+
+
+/*HEADER*/
+
+.header-about-me a:hover {
+    font-size: 1.5rem;
+    font-size-adjust: 20px;
+    color: #9cf99c;
+  }

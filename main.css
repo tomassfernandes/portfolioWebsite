@@ -11,13 +11,6 @@ header {
     height: 3rem;
     display: flex;
     align-items: center;
-    background: linear-gradient(
-        to right,
-        white 0%,
-        white 65%,
-        #053365 65%,
-        #053365 100%
-    );
 }
 
 header a {
@@ -35,6 +28,11 @@ header a:hover {
   color: #f9a49c;
 }
 
+.header-topics {
+    width: 69.25%;
+    width: auto;
+}
+
 
 /*BODY*/
 
@@ -48,7 +46,7 @@ section {
     width: 15rem;
     height: 15rem;
     margin-left: 5rem;
-    margin-right: auto;
+    margin-right: 2rem;
     margin-top: 4rem;
     border-radius: 360px;
     border: 2px solid transparent;
@@ -107,11 +105,13 @@ section {
 }
 
 #right-section {
-    height: 110.5%;
+    height: 120.5%;
     width: 35%;
-    margin-right: 0rem;
+    margin-right: 0;
     margin-left: auto;
+    width: auto;
     background-color: #053365;
+    margin-top: -3rem;
 }
 
 .right-section-text {
@@ -157,7 +157,7 @@ section {
     overflow: hidden;
     transform: translateY(-50%); 
     height: 4rem;  
-    margin-top: 1.7rem;
+    margin-top: 7.5rem;
 }
 
 
